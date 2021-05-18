@@ -39,8 +39,10 @@ If ROI border exceeds edges of the matrix, new ROI center coordinates are
 retracted back into the matrix.
 
 Issues:
-    * mouse input to work properly, change Spyder settings in
-    Preferences>IPhyton console>Graphics>Backend to Automatic.
-    * ROI coordinates precision may vary by one point due to number 
-    rounding ("width/2").
+
+Mouse input to work properly, change Spyder settings in
+Preferences>IPhyton console>Graphics>Backend to Automatic.
+
+ROI coordinates precision may vary by one point due to number 
+rounding ("width/2").
 """
