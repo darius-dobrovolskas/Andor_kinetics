@@ -167,9 +167,9 @@ cbar = fig0.colorbar(im0, fraction=0.046, pad=0.04)
 cbar.set_label('Intensity (a.u.)')
 
 #set center of roi using mouse click
-# mouse_in = plt.ginput(n=1)[0]
-# centr = [cnvrtInt(x) for x in mouse_in]
-centr = [15, 64]
+mouse_in = plt.ginput(n=1)[0]
+centr = [cnvrtInt(x) for x in mouse_in]
+# centr = [15, 64]
 
 tstart = time.time()
 vcoord = centr[0]
